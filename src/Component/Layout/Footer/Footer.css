@@ -1,0 +1,9 @@
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width:595px) {
+    .footerSection{
+        padding: 40px 30px;
+    }
+}

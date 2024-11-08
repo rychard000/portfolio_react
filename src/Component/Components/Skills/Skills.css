@@ -1,0 +1,37 @@
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+#modelOne{
+    transition: 0.5s;
+}
+
+#modelTwo{
+    transition: 0.7s;
+}
+
+#modelThree{
+    transition: 0.9s;
+}
+
+#modelFour{
+    transition: 1s;
+}
+
+#modelFive{
+    transition: 1s;
+}
+
+#modelSix{
+    transition: 1s;
+}
+
+@media (max-width:470px) {
+    .imgSkillsBox{
+        padding: 0 20px;
+    }
+
+    .imgSkills{
+        width: 50px;
+    }
+}

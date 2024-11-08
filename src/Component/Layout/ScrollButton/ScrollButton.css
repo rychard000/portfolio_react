@@ -1,0 +1,16 @@
+.buttonOnEffect {
+    transform: translateX(-20px);
+    opacity: 1;
+    z-index: 29;
+}
+  
+.buttonNoEffect {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+@media (max-width:747px) {
+    .scrollButtonCss{
+        right: 20px;
+    }
+}

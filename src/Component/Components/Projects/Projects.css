@@ -1,0 +1,34 @@
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes moveIcon{
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px); 
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.link #icon{
+    transition: .5s;
+}
+
+.link:hover #icon{
+    transform: translateX(5px);
+    color: #D7D7D7;
+}
+
+.link:hover .spanLink{
+    color: #D7D7D7;
+}
+
+.cardOne, .cardTwo, .cardThree{
+    transform: translateX(-700px);
+    opacity: 0;
+    transition: 0.5s;
+}

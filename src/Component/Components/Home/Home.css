@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.likedinPng, .githubPng{
+    position: relative; 
+    transition: transform .5s ease; 
+}
+
+.likedinPng:hover, .githubPng:hover{
+    transform: translateY(-5px);
+}
+
+.spanHome{
+    font-family: "Poppins", sans-serif;
+}
+
+.spanDeveloper{
+    font-family: "Inter", sans-serif;
+}
+
+.gradient #developerSpan{
+    background: linear-gradient(90deg,#8013ED,#FF000F 105%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.0;
+}
+
+.gradient #frontEndspan{
+    background: linear-gradient(90deg,#8013ED,#FF000F 63%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+@media (max-width:1000px) {
+    .sectionHome{
+        width: 100%;
+    }
+}
+
+@media (max-width:940px) {
+    .sectionHome{
+        flex-direction: column-reverse;
+    }
+
+    .homeTextContent{
+        text-align: center;
+        margin: 0;
+    }
+
+    .homeImg{
+        padding: 0;
+    }
+
+    .contactHome{
+        justify-content: center;
+    }
+}
+
+@media (max-width:595px) {
+    .homeImg{
+        width: 250px;
+    }
+}
+
+@media (max-width:470px) {
+    .spanHome{
+        font-size: 18px;
+    }
+
+    .gradient #developerSpan, .gradient #frontEndspan{
+        font-size: 44px;
+    }
+
+    .homeImg{
+        width: 230px;
+    }
+}
+
+@media (max-width:360px) {
+    .gradient #developerSpan, .gradient #frontEndspan{
+        font-size: 41px;
+    }
+}

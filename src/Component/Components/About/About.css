@@ -1,0 +1,42 @@
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+.sectionAbout{
+    color: var(--body_color);
+}
+
+:root{
+    --body_background:#010d23;
+    --body_color:white;
+    --link_color:navy;
+}
+
+[data-theme='light']{
+    --body_background:white;
+    --body_color:#010d23;
+    --link_color:navy;
+}
+
+@media (max-width:1000px) {
+    .sectionAbout{
+        width: 100%;
+    }
+}
+
+@media (max-width:844px) {
+    .paragraphAbout{
+        text-align: center;
+    }
+}
+
+@media (max-width:595px) {
+    .paragraphAbout{
+        margin: 0;
+        padding: 0 20px;
+    }
+}

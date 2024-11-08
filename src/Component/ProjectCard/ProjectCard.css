@@ -1,0 +1,57 @@
+.cardsButton{
+    transition: 200ms ease;
+}
+
+.cardsButton:hover{
+    transform: scale(1.03);
+    background-color: #D7D7D7;
+}
+
+@media (max-width:940px) {
+    .cardsProjects{
+        flex-direction: column;
+    }
+
+    .cardOne img, .cardTwo img, .cardThree img{
+        margin: 0;
+    }
+
+    .aboutParagraph{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .boxButtons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxButtons a{
+        width: 300px;
+    }
+}
+
+@media (max-width:595px) {
+    .contentCard{
+        width: 100%;
+    }
+    
+    .imgCard{
+        width: 100%;
+        height: 100%;
+    }
+
+    .cardsProjects{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:444px) {
+    .contentCard{
+        padding: 20px 0;
+    }
+
+    .boxButtons a{
+        width: 100%;
+    }
+}
