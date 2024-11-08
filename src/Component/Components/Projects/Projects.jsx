@@ -88,8 +88,8 @@ const Projects = forwardRef((props,ref)=>{
                     img5={mySql}
                     title='Panificadora online'
                     about='Projeto Full-Stack, de um  e-commerce de uma panificadora, onde o usuário pode criar e entrar com sua conta e comprar seus produtos, tendo sistema de carrinho e gerando o pedido do mesmo, com as devidas opções, as de pagamento com PIX, cartão.'
-                    deploy='https://movie-api-2.vercel.app'
-                    github='https://github.com/arghoslent666/movie-api-2'
+                    deploy='https://padaria-front-end.vercel.app'
+                    github='https://github.com/rychard000/padaria_front_end'
                 />
 
                 <ProjectCard
