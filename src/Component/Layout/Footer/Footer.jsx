@@ -8,10 +8,10 @@ export default function Footer(){
     return (
         <footer className='w-[100%] text-center py-[40px] footerSection'>
             <div className='flex gap-4 justify-center pb-[15px]'>
-                <a href="https://github.com/arghoslent666">
+                <a href="https://github.com/rychard000">
                     <FontAwesomeIcon className={`text-[${Colors().white}] text-[25px]`} icon={faGithub} />
                 </a>
-                <a href="https://www.linkedin.com/in/rychard-alves-440737290/">
+                <a href="https://www.linkedin.com/in/rychardalves/">
                     <FontAwesomeIcon className={`text-[${Colors().white}] text-[25px]`} icon={faLinkedin} />
                 </a>
             </div>

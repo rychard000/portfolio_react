@@ -17,10 +17,10 @@ const Home = forwardRef((props, ref)=>{
                         <span id='frontEndspan' className='spanDeveloper'>Full-Stack</span>
                     </div>
                     <div className='flex gap-6 contactHome'>
-                        <a className='githubPng outline-none' href="https://github.com/arghoslent666">
+                        <a className='githubPng outline-none' href="https://github.com/rychard000">
                             <img className='w-[42px]' src={github} alt=""/>    
                         </a>
-                        <a className='likedinPng outline-none' href="https://www.linkedin.com/in/rychard-alves-440737290/">
+                        <a className='likedinPng outline-none' href="https://www.linkedin.com/in/rychardalves/">
                             <img className='w-[42px]' src={likedin} alt=""/>
                         </a>
                     </div>
